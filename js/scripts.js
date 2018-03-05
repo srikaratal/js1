@@ -1,9 +1,10 @@
 // scripts.js
 
-var name = prompt('Enter your name');
-// alert('Hello, ' + name);
-console.log('Hello, ' + name);
-/*
-    secret message
-*/
-// finally a task I can do with ease
+
+var variable = "triangleArea";
+var variable = "a";
+var variable = "h";
+var a = 2;
+var h = 2;
+var triangleArea = a*h/2;
+console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
