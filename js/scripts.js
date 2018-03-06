@@ -1,10 +1,17 @@
 // scripts.js
 
 
-var variable = "triangleArea";
-var variable = "a";
-var variable = "h";
-var a = 2;
-var h = 2;
-var triangleArea = a*h/2;
-console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+var a = 5;
+var b = 3;
+var value = (a * a) - (2 * a * b) - (b * b);
+
+console.log('The result is:', value);
+if (value > 0) {
+    console.log('The result is positive');
+}
+if (value < 0) {
+    console.log('The result is negative');
+}
+if (value === 0) {
+    console.log('The result equals 0');
+}
