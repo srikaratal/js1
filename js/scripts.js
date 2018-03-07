@@ -1,17 +1,10 @@
 // scripts.js
 
-
-var a = 5;
-var b = 3;
-var value = (a * a) - (2 * a * b) - (b * b);
-
-console.log('The result is:', value);
-if (value > 0) {
-    console.log('The result is positive');
+getTriangleArea - function getTriangleArea(a, h) {
+if (a <= 0) {
+    document.write("Nieprawidłowe dane");
+if (h <= 0) {
+    document.write("Nieprawidłowe dane");
+return a*h/2;
 }
-if (value < 0) {
-    console.log('The result is negative');
-}
-if (value === 0) {
-    console.log('The result equals 0');
-}
+console.log(getTriangleArea(10, 6));
