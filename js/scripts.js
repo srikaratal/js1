@@ -1,10 +1,12 @@
 // scripts.js
 
-getTriangleArea - function getTriangleArea(a, h) {
+function getTriangleArea(a, h) {
 if (a <= 0) {
     document.write("Nieprawidłowe dane");
-if (h <= 0) {
+} else if (h <= 0) {
     document.write("Nieprawidłowe dane");
-return a*h/2;
+} else { return a*h/2;
+}
 }
 console.log(getTriangleArea(10, 6));
+var triangle1Area = getTriangleArea(10, 15);
