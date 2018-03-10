@@ -1,11 +1,6 @@
 // scripts.js
-function drawTree(5) {
-    for (var i=0; i<=5; i++) {
-        star = "";
-        for(var j = 0; j < n; j++) {
-            if (j<=i) {
-            var star += '*';
-              console.log(star);
-            }
-    }
-}
+document.getElementsByClassName('button');
+// to ma pobierać elementy, ale jak teraz "przypisać do zmiennej"?
+for (i = 0; i < button.lenght; i++) {
+    text += button[i] + "<br>"
+// spróbowałem tak, ale w sumie nie chodzi o tekst 'button' tylko o klasę, więc nie wiem co zrobić
