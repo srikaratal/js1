@@ -1,6 +1,10 @@
 // scripts.js
-document.getElementsByClassName('button');
-// to ma pobierać elementy, ale jak teraz "przypisać do zmiennej"?
-for (i = 0; i < button.lenght; i++) {
-    text += button[i] + "<br>"
-// spróbowałem tak, ale w sumie nie chodzi o tekst 'button' tylko o klasę, więc nie wiem co zrobić
+button.addEventListener(click, onclick);
+var list = document.getElementById('list');
+var add = document.getElementById('<button>');
+add.addEventListener('click', function() {});
+// tu nie wiem jak zastosowac tę funkcję i jaka struktura - co w czym
+var element = document.createElement('li');
+element.innerHTML = 'item';
+var /*tu nie wiem co*/ = document.getElementsByTagName(/*tu też nie wiem co*/).length;
+list.appendChild(element);
