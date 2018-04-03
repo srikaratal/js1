@@ -101,6 +101,7 @@ function checkRoundWinner(playerPick, computerPick) {
     } else if (winnerIs == 'computer') {
         computerResultElem.innerHTML = "Win!";
         computer.score++;
+    setGamePoints();
     }
 
 }
@@ -109,4 +110,14 @@ function checkRoundWinner(playerPick, computerPick) {
 function setGamePoints() {
     playerPointsElem.innerHTML = player.score;
     computerPointsElem.innerHTML = computer.score;
+}
+
+function finishGame() {
+    if (player.score == 10) {
+
+    }
+    else if (computer.score == 10) {
+        
+    }
+
 }
