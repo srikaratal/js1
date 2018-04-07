@@ -98,26 +98,24 @@ function checkRoundWinner(playerPick, computerPick) {
     if (winnerIs == 'player') {
         playerResultElem.innerHTML = "Win!";
         player.score++;
-    } else if (winnerIs == 'computer') {
+    } 
+    else if (winnerIs == 'computer') {
         computerResultElem.innerHTML = "Win!";
         computer.score++;
     setGamePoints();
     }
-
+    if (player.score == 10) {
+        setGameElements()
+        case 'ended':
+    }
+    else if (computer.score == 10) {
+        setGameElements() 
+        case 'ended':
+    }
 }
 
 
 function setGamePoints() {
     playerPointsElem.innerHTML = player.score;
     computerPointsElem.innerHTML = computer.score;
-}
-
-function finishGame() {
-    if (player.score == 10) {
-
-    }
-    else if (computer.score == 10) {
-        
-    }
-
 }
