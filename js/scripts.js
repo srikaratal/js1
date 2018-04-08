@@ -105,12 +105,12 @@ function checkRoundWinner(playerPick, computerPick) {
     setGamePoints();
     }
     if (player.score == 10) {
-        setGameElements()
-        case 'ended':
+        gameState = 'ended';
+        setGameElements();
     }
     else if (computer.score == 10) {
-        setGameElements() 
-        case 'ended':
+        gameState = 'ended';
+        setGameElements();
     }
 }
 
